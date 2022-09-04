@@ -18,40 +18,48 @@
         <nav>
             <div class="container">
                 <ul class = "menu">
-                    <li class = "menu_item"><a class = "menu_link" href="#">Главная</a></li>
-                    <li class = "menu_item"><a class = "menu_link" href="#">Со своим автомобилем</a></li>
-                    <li class = "menu_item"><a class = "menu_link" href="#">На автомобиле компании</a></li>
-                    <li class = "menu_item"><a class = "menu_link" href="#">Требования</a></li>
-                    <li class = "menu_item"><a class = "menu_link" href="#">Контакты</a></li>
-                    <li class = "menu_item"><a class = "menu_link" href="#">Оставить заявку</a></li>
+                    <li class = "menu_item"><a class = "menu_item_link" href="#">Главная</a></li>
+                    <li class = "menu_item"><a class = "menu_item_link" href="#">Со своим автомобилем</a></li>
+                    <li class = "menu_item"><a class = "menu_item_link" href="#">На автомобиле компании</a></li>
+                    <li class = "menu_item"><a class = "menu_item_link" href="#">Требования</a></li>
+                    <li class = "menu_item"><a class = "menu_item_link" href="#">Контакты</a></li>
+                    <li class = "menu_item"><a class = "menu_item_link" href="#">Оставить заявку</a></li>
                 </ul>
             </div>
-           
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
 
         <div class="subheader">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 offset-md-1">
+                    <div class="col-6 col-md-4 offset-md-1">
                         <a href="#" class="subheader_logo"><img class = "logo_img" src="resources/logo/uber-logo.png" alt=""></a>                            
                         <div class="subheader_text">Официальный партнер Uber в Москве</div>
                     </div>  
-                    <div class="col-md-2 offset-md-2">
+                    
+                    <div class="xs-hidden col-6 col-md-3 offset-md-1 col-xl-2 offset-xl-2">
                         <div class="subheader_phone-text">Звоните нам ежедневно</div>
                         <a href="tell:+74957970988" class="subheader_phone-link">8 495 797 09 88</a>
                     </div>
-                    <div class="col-md-2">
+
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <a href="tell:+74957970988" class="xs-visible subheader_phone-link">8 495 797 09 88</a>
                         <button class="subheader_btn">ЗАКАЗАТЬ ЗВОНОК</button>
                     </div>
                 </div>
             </div>
+           
         </div>
     </header> 
     
     <section class="promo">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 offset-md-1">
+                <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
                     <h1 class = "promo_header">КОМПАНИЯ UBER PARTNERS!</h1>
                     <h2 class="promo_subheader">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
                     <div class="promo_descr">Компания UBER  динамически развивающаяся. Компания на рынке занимает лидирующее место средитаксомоторных компаний, Компания абсолютно прозрачная вы можете контролировать все процессы у себя в личном кабинете. Бонуcная система. Помимо выполненной работы по заказам, компания начисляет бонусы запиковое время. <br><br>
@@ -172,7 +180,7 @@
         </div>
     </section>
 
-    <section class="mobile">
+     <section class="mobile">
         <div class="container">
             <div class="label">Возможности</div>
             <div class="title">мобильное приложение убер</div>
@@ -217,7 +225,7 @@
             </div>
         </div>
     </section>
-
+    
     <section class = "choise">
         <div class="container">
             <div class="label">Возможности</div>
@@ -344,10 +352,10 @@
         </div>
     </section>
 
-    <footer>
+    <footer class = "footer">
         <div class="devider"></div>
         <div class="footer_wrapper">
-            <div class="footer_wrapper_item">
+            <div class="footer_wrapper_item_1">
                 <div class="footer_wrapper_item_social">
                      <div class="footer_wrapper_item_social_rounded">
                         <span class="icon-facebook-f-brands"/>
@@ -364,7 +372,7 @@
                 </div>
                
             </div>
-            <div class="footer_wrapper_item">
+            <div class="footer_wrapper_item_2">
                 <div class="footer_wrapper_item_center">
                     <div class="footer_wrapper_item_center_first">
                         <a href="#">на главную</a>
@@ -383,7 +391,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer_wrapper_item">
+            <div class="footer_wrapper_item_3">
                 <div class = "footer_wrapper_item_store">
                     <img class = "footer_wrapper_item_store_img" src="resources/icons/store-icons/google.svg" alt="google">
                     <img class = "footer_wrapper_item_store_img" src="resources/icons/store-icons/apple.png" alt="apple">
@@ -393,6 +401,8 @@
         </div>
     </footer>
 
+
+    <script src = "js/script.js"></script>
 </body>
 </html>
 
