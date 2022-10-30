@@ -131,6 +131,9 @@
             text-align: center
 
     .footer
+        .devider
+            width: 200px
+
         &_wrapper
             flex-direction: column
             flex-wrap: wrap
@@ -138,9 +141,9 @@
             &_item
                 &_1
                     order: 2
-                    align-self: flex-end
+                    align-self: center
                     margin-top: 16.6px
-                    margin-right: 15px
+                    // margin-right: 15px
                 &_2
                     order:1
                     align-self: center
@@ -149,8 +152,9 @@
                     margin-top: 14px
                     align-self: center
     footer .footer_wrapper_item_social 
-        justify-self: start
-        margin-right: 100px
+            justify-content: center
+            margin: 0 auto
+            align-items: center
 
     .choise 
         min-height: 390px
@@ -272,3 +276,13 @@
         .subtitle
             font-weight: 400
             font-size: 14px
+    .menu
+        &_item
+            margin-top: 20px
+            width: 100%
+            text-align: center  
+        &_item
+            &_link
+                display: block
+
+               
